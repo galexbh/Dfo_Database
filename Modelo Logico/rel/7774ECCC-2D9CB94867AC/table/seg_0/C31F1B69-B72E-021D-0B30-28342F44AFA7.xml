@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C31F1B69-B72E-021D-0B30-28342F44AFA7" name="Tbl_Cliente">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>0320D28F-5ADF-930A-231C-ADEF1415D00A</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Cliente" id="56C79639-132F-3EA2-1A9F-16A1336BC8A2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>B1BF92A8-FDBF-CD21-CDFB-29EDD669367A</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Identificacion" id="19F7ED04-2F7B-7818-05B4-0A25B51B2415">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>598065F7-78E3-7A51-300E-0E98B4B51DA3</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Cliente" id="288B19DB-3CEA-BB84-A377-4D02C8C369D9">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>347D6568-4F4E-2169-E8FB-392FB8AF958D</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Cliente" id="0956A7E4-00F0-04EE-A3C1-6FF976DDF4DF">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>FE7844BC-CA56-4314-C3B2-A4B17002FCB8</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="1731389E-F72C-54C9-68CF-1A659E8057C9">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>342B3C03-3E86-4603-51CD-59910CAB8118</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Pais" id="31C3D946-FB48-16DC-8DC4-8D4B27648765">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>484B8152-0EDF-3270-8E88-6164E64AE939</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD218B28-FAB0-922A-C4F0-2C43FA4BE80D" referredColumn="2F34E06B-F79F-963B-34DC-AD20245330F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CFE2A36-34C5-5DCC-2496-347AC37EE752" name="Tbl_Cliente_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>84B189EA-79ED-1645-D137-796E0C9D7A7B</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56C79639-132F-3EA2-1A9F-16A1336BC8A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66B710FB-D19D-BC38-2610-C9DDD415655A" name="Tbl_Cliente_Tbl_Pais_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>FE6A32D5-C75C-FCDD-C9D6-7054E51481D5</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31C3D946-FB48-16DC-8DC4-8D4B27648765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

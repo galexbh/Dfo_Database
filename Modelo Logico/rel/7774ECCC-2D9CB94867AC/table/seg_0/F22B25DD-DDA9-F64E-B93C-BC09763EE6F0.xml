@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F22B25DD-DDA9-F64E-B93C-BC09763EE6F0" name="Tbl_Tipo_Reservacion">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>65E0EE85-DD67-6B28-5857-2A4A601EA887</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Tipo_Res" id="2E32C787-1717-6762-8A6A-68648EDE6E05">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>D03D3F71-A0DB-572F-6F82-EAECA48C7E71</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Res" id="1E40C4E4-55D2-AC65-CA32-8D05A82DBB0F">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<comment><![CDATA[-Precencial
+-Telefonica
+-Correo]]></comment>
+<generatorID>A87675C7-F245-2A2C-E8DC-B34B64490BDA</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8A8F119-8005-2EF1-C443-53C55594BF8C" name="Tbl_Tipo_Reservacion_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>652B28FF-DA1D-2DFE-7DBE-3C1CDB58008B</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E32C787-1717-6762-8A6A-68648EDE6E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1475A430-D1DF-3C7D-B2D6-A8E2E3DD21B8" name="Tbl_Turno">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>1EC75639-7A88-B289-3033-198A3C57DC7D</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Turno" id="5849A9BD-8D9D-F980-792C-4804752064DB">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>B82ACDC6-69F4-A91C-1DB9-6BBF888A1CB8</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Turno" id="0F3059F6-501A-4C0A-AE23-A4C8B1408865">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<comment><![CDATA[-Matutino
+-Vespertino
+-Nocturno]]></comment>
+<generatorID>6798DFD6-407D-0FED-4DFD-F665723EAC5F</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_Inicio" id="3D5651B9-F98D-E29E-1ED6-7A2894B558E2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>ED9D4E19-2FEF-8B63-5ACC-9E1F7F742D02</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_Final" id="A291492B-AC3E-48A4-209E-4111802E31AE">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>6F6D9E43-1EB5-70D0-8452-C80EEE4D3FA8</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E77A68A8-E1A5-8E57-AB78-FE1623DC231A" name="Tbl_Turno_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>D41CC4A9-BB5C-CF5F-EC24-696E7DA38677</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5849A9BD-8D9D-F980-792C-4804752064DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

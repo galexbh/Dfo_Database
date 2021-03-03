@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85D8DDAA-F6D6-57F7-3990-FB12FCE382E3" name="Tbl_Cargo">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 17:18:15 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Cargo" id="2BC5E054-C0CC-C761-7206-7BA397CD4BB2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 17:18:43 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Cargo" id="03260BA8-C6EE-C9D8-2E11-8E44B5E6E88A">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 17:19:08 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sueldo" id="964A11FF-02FF-D3C3-8731-48D326234BAB">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 17:19:42 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09BB5111-9209-4F8A-50A5-61124010A99D" name="Tbl_Cargo PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 17:19:03 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BC5E054-C0CC-C761-7206-7BA397CD4BB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

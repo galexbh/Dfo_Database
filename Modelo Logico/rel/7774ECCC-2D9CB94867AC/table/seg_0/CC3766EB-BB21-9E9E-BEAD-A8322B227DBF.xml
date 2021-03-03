@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC3766EB-BB21-9E9E-BEAD-A8322B227DBF" name="Tbl_Tipo_Hab_Salon">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>45A6D69C-DEB0-6964-1A6E-64EFEAA39143</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Tipo_Hab_Salon" id="37789224-CD4D-483A-4D5C-0FB7B08D6B38">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>A9DE63E4-95B3-80E9-3088-0B4A22AA9274</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Hab_Salon" id="193E8CCF-7BB4-03E4-AD6A-064744D97047">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<comment><![CDATA[-Simples
+-Dobles
+-Triples
+-Salon Junior
+-Salon Ejecutivo]]></comment>
+<generatorID>C85286E1-C956-1B2A-2605-4486CFB85B94</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidad" id="AD2F1A18-811F-7B01-AF3C-F21E870219F2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>946DE2C5-84AB-8193-7823-C03731A6A37D</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B214E14-E5D6-FB47-A529-7258C195DF2D" name="Tbl_Tipo_Hab_Salon_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>894DC5C7-E565-666D-E0FF-A5C1C47060DB</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37789224-CD4D-483A-4D5C-0FB7B08D6B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92DC4231-6B42-3A63-D814-434C2CCC795E" name="Tbl_Tipo_Hab_Salon__IDX">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7F40B4C1-8319-6F8B-6853-E1913B3C2056</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

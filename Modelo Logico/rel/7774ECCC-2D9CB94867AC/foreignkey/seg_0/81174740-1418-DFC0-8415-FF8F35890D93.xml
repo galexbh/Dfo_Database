@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81174740-1418-DFC0-8415-FF8F35890D93" containerWithKeyObject="4F3391CB-A28F-5061-1AD4-3141FF449ACE" localFKIndex="06283D6E-84B0-5C94-56EE-129EB1234296" name="Tbl_Reservacion_Tbl_Tipo_Reservacion_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>C2860284-5038-D55B-FEEE-17DD7526015E</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<referredTableLongName>Tbl_Tipo_Reservacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F22B25DD-DDA9-F64E-B93C-BC09763EE6F0</referredTableID>
+<keyObject>A8A8F119-8005-2EF1-C443-53C55594BF8C</keyObject>
+<referredKeyID>A8A8F119-8005-2EF1-C443-53C55594BF8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Tipo_Res</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

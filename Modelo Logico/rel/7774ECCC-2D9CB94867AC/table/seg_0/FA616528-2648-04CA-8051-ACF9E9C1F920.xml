@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA616528-2648-04CA-8051-ACF9E9C1F920" name="Tbl_Reservacio_Hab_Salon">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<ordsAlias>relation_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Res_Hab_Salon" id="281FB1EF-E5A8-04AB-96C1-07C2A6717283">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:26:11 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Hab_Salon" id="0C526DD0-97C3-303B-0C46-CCA96CF773AB">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30293AE2-A729-79D8-A9A8-FABE77D11ACB" referredColumn="86DC99B4-E977-199D-DA4F-2EB5E6EF4910"/>
+</associations>
+</Column>
+<Column name="Id_Reservacion" id="25E6C6F6-AF39-781A-7E1E-2CAAA1203B35">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F7F50CA-5473-2A8F-CDF0-91B99637E27C" referredColumn="58142218-07A6-A218-E4DC-8EBDC3560552"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="467277C9-8F8D-DE23-783E-C434B1029294" name="Relation_39_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="281FB1EF-E5A8-04AB-96C1-07C2A6717283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A88D3E46-7430-C679-7488-28F82908034A" name="Relation_39_Tbl_Habitacion_Salon_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>231113CD-146B-0421-0040-5320C3FFE515</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C526DD0-97C3-303B-0C46-CCA96CF773AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39D23303-3A27-12D3-5F69-F311FB4CA3F5" name="Relation_39_Tbl_Reservacion_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>231113CD-146B-0421-0040-5320C3FFE515</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25E6C6F6-AF39-781A-7E1E-2CAAA1203B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

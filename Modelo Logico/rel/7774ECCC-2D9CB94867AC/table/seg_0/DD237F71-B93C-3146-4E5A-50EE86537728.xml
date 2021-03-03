@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD237F71-B93C-3146-4E5A-50EE86537728" name="Tbl_Empleado">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>0108AD28-1363-FCC2-E9C6-89C12D17658C</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Empleado" id="37A77C28-6D4B-47D8-398A-08A27DDAAE0B">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>41C8CC96-19DF-75FF-F6A6-FA2EB7632B4B</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Emp" id="4EA94DA4-5DD9-5A27-B06A-64D1FDB6B49C">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>89B7EBC2-9BEC-5A06-92F4-EBC02424D088</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Emp" id="6DE17405-6C63-A55B-FB25-24F250EA45D7">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>0DFBA874-9559-3E98-E965-4493DDC80F4E</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo_Emp" id="3E5A4942-2F92-657D-7BDC-48D8B6EE67EC">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>0C9A16A8-24EC-1816-0B72-1FC37C3309D4</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Naciemiento" id="00286A34-44EE-FC5B-78B7-ACF78CFDAFDA">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>B494858B-04B4-58CE-CDB1-1E8D1EED69E1</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Inicio" id="83FBC050-0838-9A34-086B-53508E25D269">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>4B5DEB86-768A-6964-1536-7EF5F0964616</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Final" id="0D978971-6962-96D0-706E-8E7D5C626C6B">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>FC8F3864-09A5-3199-2153-DEDE46D232DE</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Cargo" id="775B2A58-4FD1-A06A-58AA-E196B7A366F4">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>2DEEA723-0BD7-E223-706B-62C74F34D231</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96FC6853-F141-811A-5064-2EA170F531C4" referredColumn="B6958273-1E24-90C8-1CFB-FC54997648EA"/>
+</associations>
+</Column>
+<Column name="Id_Tipo_Empl" id="EEC14A66-06DD-0039-695E-EFE07D109151">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>145A33B5-CE8D-2616-DEEA-2FAF6E981D1E</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C73D8F87-BB0B-F8A6-5FE2-A9DAC11DB4F2" referredColumn="9428080C-C160-C1D4-D917-D8186378C295"/>
+</associations>
+</Column>
+<Column name="Id_departamento" id="FF52C7C5-1846-79CA-0812-DABA976AEBFD">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>ABF039B4-DB23-17BD-36FB-66F2AB31E1C5</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCDFCD13-2C9B-8EA5-1148-0BAA1C8446D4" referredColumn="100E75A6-E433-88DE-87D0-575A85278740"/>
+</associations>
+</Column>
+<Column name="Id_Estado" id="FC886FAC-F611-A04A-552F-E83924D3CE31">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>B69EAA90-4C88-3546-690B-57C09E29CDC4</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4413063C-9BE8-0F44-C005-D48F0C957967" referredColumn="98059479-E41E-C930-6D93-52837E5D9A1E"/>
+</associations>
+</Column>
+<Column name="Id_Turno" id="EBE0A288-D4F5-E88B-9E45-57551D32E026">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>525237A8-9A12-E780-2B99-6612E34C43A7</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D3EBBF2-FFE8-C131-4003-59E29551E1B0" referredColumn="5849A9BD-8D9D-F980-792C-4804752064DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88D61F4B-6BBA-39FA-6DCD-EC8141345B5F" name="Tbl_Empleado_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>A4AD861B-1EF2-DE88-01DB-2E03FF5E9075</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A77C28-6D4B-47D8-398A-08A27DDAAE0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A7D444-0705-F738-5079-84BFEA4B5754" name="Tbl_Empleado_Tbl_Estado_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>35C7E334-455B-C935-2528-42166CA0FAF0</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC886FAC-F611-A04A-552F-E83924D3CE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DE7994D-0501-0BF0-1FE6-B5B90E161FCF" name="Tbl_Empleado_Tbl_Cargo_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>92D9A48D-E0CE-737C-0602-F67006C4C214</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775B2A58-4FD1-A06A-58AA-E196B7A366F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46E2FC36-6A16-7AAF-FAD4-48D76987AF38" name="Tbl_Empleado_Tbl_TIpo_Empleado_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>6E0BACA2-6DAD-BC29-6643-562768E94324</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC14A66-06DD-0039-695E-EFE07D109151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="896506BB-98FD-62A3-E175-C8ECA3B973F2" name="Tbl_Empleado_Tbl_Departamento_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>4079DCC7-B246-5199-DF20-4E6320B91423</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF52C7C5-1846-79CA-0812-DABA976AEBFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B567D47-BAE2-F51A-60A4-0AE29C91FA7D" name="Tbl_Empleado_Tbl_Turno_FKv2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>7167570F-40D8-3B52-FA7E-596A0110C244</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE0A288-D4F5-E88B-9E45-57551D32E026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A3C2997-6A8E-EDC9-5F6E-CE1A39C26079" name="Tbl_Telefono">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:36:10 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Telefono" id="03EFF856-BF99-F909-86EE-11E31BD43008">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:36:23 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="D8135C95-6F7B-42AF-3EC4-CB4ACB2E9583">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:36:55 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="FB9295CD-F57D-0909-7F2E-036D29B9F8A6">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:38:00 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Cliente" id="7A0B0CBA-C374-F596-0378-502504516229">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 04:18:28 UTC</createdTime>
+<generatorID>EAEF14EE-8B85-156E-FDB0-FC3BC5C65107</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>B1BF92A8-FDBF-CD21-CDFB-29EDD669367A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Empleado" id="EC9D55E6-C580-5850-FDDC-0015C2F4D1DC">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 00:56:35 UTC</createdTime>
+<generatorID>321D79E7-625B-9791-A2CB-1E8580FD40CD</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>41C8CC96-19DF-75FF-F6A6-FA2EB7632B4B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AAD8050-0497-ACA4-54D4-6BB3C67342CF" name="Tbl_Telefono PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:36:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03EFF856-BF99-F909-86EE-11E31BD43008</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

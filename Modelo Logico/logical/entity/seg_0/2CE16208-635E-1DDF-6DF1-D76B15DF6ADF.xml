@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CE16208-635E-1DDF-6DF1-D76B15DF6ADF" name="Tbl_Estado">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 19:27:20 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Estado" id="524AEC0E-B7BC-3D69-CC09-8030A55A1C2F">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 19:27:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="831FC8B0-78E8-B2DB-D52E-0DE1B7809458">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 19:28:20 UTC</createdTime>
+<comment><![CDATA[-Pendiente
+-Cancelado
+-Activo
+-Inactivo
+-Ocupado
+-Disponible
+]]></comment>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4523E18A-5EFA-A140-133D-8996A9CFFA5B" name="Estado PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 19:28:15 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>524AEC0E-B7BC-3D69-CC09-8030A55A1C2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

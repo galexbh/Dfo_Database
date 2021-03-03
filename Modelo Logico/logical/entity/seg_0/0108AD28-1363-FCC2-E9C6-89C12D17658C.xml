@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0108AD28-1363-FCC2-E9C6-89C12D17658C" name="Tbl_Empleado">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 16:51:48 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Empleado" id="41C8CC96-19DF-75FF-F6A6-FA2EB7632B4B">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 16:52:26 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Emp" id="89B7EBC2-9BEC-5A06-92F4-EBC02424D088">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 16:55:02 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_Emp" id="0DFBA874-9559-3E98-E965-4493DDC80F4E">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 16:57:13 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Naciemiento" id="B494858B-04B4-58CE-CDB1-1E8D1EED69E1">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 17:04:03 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo_Emp" id="0C9A16A8-24EC-1816-0B72-1FC37C3309D4">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 02:13:05 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Inicio" id="4B5DEB86-768A-6964-1536-7EF5F0964616">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 02:13:49 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Final" id="FC8F3864-09A5-3199-2153-DEDE46D232DE">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 02:16:27 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Cargo" id="2DEEA723-0BD7-E223-706B-62C74F34D231">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 21:05:18 UTC</createdTime>
+<generatorID>92D9A48D-E0CE-737C-0602-F67006C4C214</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2BC5E054-C0CC-C761-7206-7BA397CD4BB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tipo_Empl" id="145A33B5-CE8D-2616-DEEA-2FAF6E981D1E">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 21:06:24 UTC</createdTime>
+<generatorID>6E0BACA2-6DAD-BC29-6643-562768E94324</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>3637350F-5E51-7714-B0ED-43BA1C6CDE05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_departamento" id="ABF039B4-DB23-17BD-36FB-66F2AB31E1C5">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 21:07:19 UTC</createdTime>
+<generatorID>4079DCC7-B246-5199-DF20-4E6320B91423</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F425ADD8-D7BA-293A-2D6F-8BE6E39E0026</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Estado" id="B69EAA90-4C88-3546-690B-57C09E29CDC4">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 21:10:02 UTC</createdTime>
+<generatorID>35C7E334-455B-C935-2528-42166CA0FAF0</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>524AEC0E-B7BC-3D69-CC09-8030A55A1C2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Turno" id="525237A8-9A12-E780-2B99-6612E34C43A7">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 00:55:58 UTC</createdTime>
+<generatorID>7167570F-40D8-3B52-FA7E-596A0110C244</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>B82ACDC6-69F4-A91C-1DB9-6BBF888A1CB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4AD861B-1EF2-DE88-01DB-2E03FF5E9075" name="Tbl_Empleado PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 16:53:01 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41C8CC96-19DF-75FF-F6A6-FA2EB7632B4B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

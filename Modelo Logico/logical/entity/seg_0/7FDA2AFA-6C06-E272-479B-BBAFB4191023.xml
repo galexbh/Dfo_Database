@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FDA2AFA-6C06-E272-479B-BBAFB4191023" name="Tbl_Precio">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:42:57 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Precio" id="42EFA3A7-D8EB-46BD-9FB0-242898E59713">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:43:18 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="0B948CEC-3184-5738-854C-C1ADAC29E439">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:43:44 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Temporada" id="2B6572F5-0A90-534D-C470-F454113EB624">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 00:51:10 UTC</createdTime>
+<generatorID>A7B57596-5EF7-6E3C-8221-2F5462D95FFA</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>9DCDE167-5D3C-4B89-D728-D4B728E7E1E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tipo_Hab_Salon" id="8039ED13-9624-7142-9C76-097540CFCD70">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 00:51:32 UTC</createdTime>
+<generatorID>554145CE-4233-BA59-C276-5EFCC60D9C64</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A9DE63E4-95B3-80E9-3088-0B4A22AA9274</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5079F681-F7C8-A4D4-36A5-8F086AEC58A7" name="Tbl_Precio PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:43:37 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42EFA3A7-D8EB-46BD-9FB0-242898E59713</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

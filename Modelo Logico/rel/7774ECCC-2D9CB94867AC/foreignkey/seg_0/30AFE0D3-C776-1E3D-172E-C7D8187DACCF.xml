@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30AFE0D3-C776-1E3D-172E-C7D8187DACCF" containerWithKeyObject="808B8CE9-1778-D745-963E-83CAA183A8C8" localFKIndex="E8161437-EAAA-0683-8B02-1EE14D5D2BCE" name="Tbl_Precio_Tbl_Tipo_Hab_Salon_FKv2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>554145CE-4233-BA59-C276-5EFCC60D9C64</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<referredTableLongName>Tbl_Tipo_Hab_Salon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC3766EB-BB21-9E9E-BEAD-A8322B227DBF</referredTableID>
+<keyObject>3B214E14-E5D6-FB47-A529-7258C195DF2D</keyObject>
+<referredKeyID>3B214E14-E5D6-FB47-A529-7258C195DF2D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Id_Tipo_Hab_Salon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

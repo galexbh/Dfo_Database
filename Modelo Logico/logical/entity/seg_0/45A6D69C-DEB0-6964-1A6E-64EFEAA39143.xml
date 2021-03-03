@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45A6D69C-DEB0-6964-1A6E-64EFEAA39143" name="Tbl_Tipo_Hab_Salon">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:23:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Tipo_Hab_Salon" id="A9DE63E4-95B3-80E9-3088-0B4A22AA9274">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:33:13 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Hab_Salon" id="C85286E1-C956-1B2A-2605-4486CFB85B94">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:33:46 UTC</createdTime>
+<comment><![CDATA[-Simples
+-Dobles
+-Triples
+-Salon Junior
+-Salon Ejecutivo]]></comment>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacidad" id="946DE2C5-84AB-8193-7823-C03731A6A37D">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:34:21 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="894DC5C7-E565-666D-E0FF-A5C1C47060DB" name="Tbl_Tipo_Hab_Salon PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:33:33 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9DE63E4-95B3-80E9-3088-0B4A22AA9274</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

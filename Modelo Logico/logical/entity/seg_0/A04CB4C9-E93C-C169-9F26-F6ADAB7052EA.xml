@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A04CB4C9-E93C-C169-9F26-F6ADAB7052EA" name="Tbl_Habitacion_Salon">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:20:31 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Hab_Salon" id="C47E6AE0-140E-5280-76D4-DE1CF1CC7A3E">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:20:51 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Hab" id="2C72007A-A338-8EFD-F4EA-86B2E428FC24">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:21:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nivel" id="0E04DB58-4070-E2FF-D5F6-7F182CD211A3">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:22:20 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tipo_Hab_Salon" id="B2439550-DF61-9199-C0C3-65ECD4346DCE">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 21:24:34 UTC</createdTime>
+<generatorID>59863F54-3FD2-80B4-A53F-6D2EC27A3BFD</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>A9DE63E4-95B3-80E9-3088-0B4A22AA9274</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Estado" id="105C351D-66C8-1313-721E-55DFFADA0656">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 21:49:28 UTC</createdTime>
+<generatorID>04208608-4071-E151-7E8D-FAFCBF0E3150</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="true"/>
+</engineerTo>
+<referedAttribute>524AEC0E-B7BC-3D69-CC09-8030A55A1C2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35C1CF50-52CC-1E59-3C38-DD2988AF1188" name="Tbl_Habitacion PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-10 20:21:10 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7774ECCC-0111-3CC5-B0A0-2D9CB94867AC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C47E6AE0-140E-5280-76D4-DE1CF1CC7A3E</attributeRef>
+<attributeRef>105C351D-66C8-1313-721E-55DFFADA0656</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

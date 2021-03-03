@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="808B8CE9-1778-D745-963E-83CAA183A8C8" name="Tbl_Precio">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>7FDA2AFA-6C06-E272-479B-BBAFB4191023</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Precio" id="38734EC6-2B20-1FFB-1EBD-8DB431D08355">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>42EFA3A7-D8EB-46BD-9FB0-242898E59713</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="BFDE91AD-453B-61A2-5D67-EEF43EA37E27">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>0B948CEC-3184-5738-854C-C1ADAC29E439</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Temporada" id="EB0D705D-E8CC-93FC-04A8-6F7655D3CB35">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>2B6572F5-0A90-534D-C470-F454113EB624</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E01D2B41-F2EF-2C70-98CE-4378906B0994" referredColumn="24309E70-57C2-9C1D-5C49-812DC4831C7F"/>
+</associations>
+</Column>
+<Column name="Id_Tipo_Hab_Salon" id="398F8078-C8B8-B65E-8FA4-8A8CE0B58DF3">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>8039ED13-9624-7142-9C76-097540CFCD70</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30AFE0D3-C776-1E3D-172E-C7D8187DACCF" referredColumn="37789224-CD4D-483A-4D5C-0FB7B08D6B38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DF172EF-C2F0-895A-7B7F-4526FBA29F1D" name="Tbl_Precio_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>5079F681-F7C8-A4D4-36A5-8F086AEC58A7</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38734EC6-2B20-1FFB-1EBD-8DB431D08355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5437AF91-9AFA-1A7E-5967-E413EC77909A" name="Tbl_Precio_Tbl_Temporada_FKv2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>A7B57596-5EF7-6E3C-8221-2F5462D95FFA</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB0D705D-E8CC-93FC-04A8-6F7655D3CB35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8161437-EAAA-0683-8B02-1EE14D5D2BCE" name="Tbl_Precio_Tbl_Tipo_Hab_Salon_FKv2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>554145CE-4233-BA59-C276-5EFCC60D9C64</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="398F8078-C8B8-B65E-8FA4-8A8CE0B58DF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

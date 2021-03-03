@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55D6A685-A633-D516-7856-85FB0859C89B" name="Tbl_Habitacion_Salon">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>A04CB4C9-E93C-C169-9F26-F6ADAB7052EA</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Hab_Salon" id="86DC99B4-E977-199D-DA4F-2EB5E6EF4910">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>C47E6AE0-140E-5280-76D4-DE1CF1CC7A3E</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Hab" id="9C121268-B0DE-1D0B-277A-29C697CD3F20">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>2C72007A-A338-8EFD-F4EA-86B2E428FC24</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nivel" id="E5AFB2E1-55A5-4C75-AEA1-86DD26DA0A3E">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>0E04DB58-4070-E2FF-D5F6-7F182CD211A3</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Tipo_Hab_Salon" id="A126F40C-46B4-70AC-EB1B-D00EF632093C">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>B2439550-DF61-9199-C0C3-65ECD4346DCE</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4932DE6E-3788-60C2-D7C1-0354B62BCC43" referredColumn="37789224-CD4D-483A-4D5C-0FB7B08D6B38"/>
+</associations>
+</Column>
+<Column name="Id_Estado" id="95C0095A-13A2-1B48-3228-8CFFC86DC398">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>105C351D-66C8-1313-721E-55DFFADA0656</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0217C7A2-3B94-D6BB-F55F-8EAFBB3F718C" referredColumn="98059479-E41E-C930-6D93-52837E5D9A1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8891D25E-72B5-26B9-8BE0-1CB8AA3CEB61" name="Tbl_Habitacion_Salon_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>35C1CF50-52CC-1E59-3C38-DD2988AF1188</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86DC99B4-E977-199D-DA4F-2EB5E6EF4910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC1BBCEE-56B7-DF20-CA6C-6105EB1DCE46" name="Tbl_Habitacion_Salon_Tbl_Tipo_Hab_Salon_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>59863F54-3FD2-80B4-A53F-6D2EC27A3BFD</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A126F40C-46B4-70AC-EB1B-D00EF632093C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF0C4B05-A58D-F914-BB2C-C8F5DEA53E8F" name="Tbl_Habitacion_Salon_Tbl_Estado_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>04208608-4071-E151-7E8D-FAFCBF0E3150</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C0095A-13A2-1B48-3228-8CFFC86DC398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

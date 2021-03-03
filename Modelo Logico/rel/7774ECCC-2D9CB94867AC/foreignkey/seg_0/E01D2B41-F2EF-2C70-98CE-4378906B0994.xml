@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E01D2B41-F2EF-2C70-98CE-4378906B0994" containerWithKeyObject="808B8CE9-1778-D745-963E-83CAA183A8C8" localFKIndex="5437AF91-9AFA-1A7E-5967-E413EC77909A" name="Tbl_Precio_Tbl_Temporada_FKv2">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>A7B57596-5EF7-6E3C-8221-2F5462D95FFA</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<referredTableLongName>Tbl_Temporada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99E1E65C-4830-1E7C-DAA8-8D8385B85A17</referredTableID>
+<keyObject>2904FD40-E9A6-B7B3-7F7D-B083D019DC28</keyObject>
+<referredKeyID>2904FD40-E9A6-B7B3-7F7D-B083D019DC28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Temporada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

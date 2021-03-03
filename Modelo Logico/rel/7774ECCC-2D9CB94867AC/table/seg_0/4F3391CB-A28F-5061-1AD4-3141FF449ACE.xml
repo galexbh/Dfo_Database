@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F3391CB-A28F-5061-1AD4-3141FF449ACE" name="Tbl_Reservacion">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>9C240A39-ABA4-49F5-C40A-8FD2604CD667</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Reservacion" id="58142218-07A6-A218-E4DC-8EBDC3560552">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>E8293241-5C23-024A-92FE-3258C009A785</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Entrada" id="988A68E1-B4E1-F8B5-D22A-BB0BE80F90AB">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>C03E021B-3B3C-1F5A-3984-8E51F0E1F68E</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Salida" id="A965DED4-F07D-72A2-0A75-4EA2F4D68EE5">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>A5E8E4FF-EC5D-2850-011F-1B587D8B898A</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="0BBA9649-7476-8794-41DE-F549CA20703D">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>175CA872-A16E-FA63-CF2D-0857FE7D5CA2</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Cliente" id="5FD2A6A3-1F43-02F3-EF6C-CC2C8FA349A9">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>B4B6FCB0-B7A9-79C9-75F5-9BEE770DBF78</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="587A23BB-E28C-D107-9832-D16A1AF722F2" referredColumn="56C79639-132F-3EA2-1A9F-16A1336BC8A2"/>
+</associations>
+</Column>
+<Column name="Id_Tipo_Res" id="F2244982-5970-052D-D7C0-6B3E4FD8A4EF">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>3261E977-99AD-713D-D55F-2B72333194DD</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81174740-1418-DFC0-8415-FF8F35890D93" referredColumn="2E32C787-1717-6762-8A6A-68648EDE6E05"/>
+</associations>
+</Column>
+<Column name="Id_Temporada" id="589A2A98-855C-C6EE-F0D6-29E35414F11B">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>5A4F1D76-6E8B-79CA-3D97-A2ABA7E8CF9D</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EE7846F-DA51-6D24-1C93-9D24A23FAEA6" referredColumn="24309E70-57C2-9C1D-5C49-812DC4831C7F"/>
+</associations>
+</Column>
+<Column name="ID_Empleado" id="4BEF5D27-3CE0-975A-D30A-831C84CC6D6B">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>76745680-B653-4872-B729-77776F4A416D</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9F5854F-8C78-52EB-3BD6-CE95DA73C31A" referredColumn="37A77C28-6D4B-47D8-398A-08A27DDAAE0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B11BD281-2E2A-65FA-F6B1-F28C1438F7F0" name="Tbl_Reservacion_PK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>6B41DE24-3AA0-B43E-C787-6070527C5377</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58142218-07A6-A218-E4DC-8EBDC3560552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D015301F-FF7A-E9C4-C306-31E988997F6B" name="Tbl_Reservacion_Tbl_Cliente_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>6D87E2D7-D429-7493-CE20-72E54D13A6B0</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD2A6A3-1F43-02F3-EF6C-CC2C8FA349A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06283D6E-84B0-5C94-56EE-129EB1234296" name="Tbl_Reservacion_Tbl_Tipo_Reservacion_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>C2860284-5038-D55B-FEEE-17DD7526015E</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2244982-5970-052D-D7C0-6B3E4FD8A4EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1984D12-B31D-6261-AB2E-C2DD02CBB150" name="Tbl_Reservacion_Tbl_Temporada_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>650E220F-009A-2D0A-99ED-E81320D050F7</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589A2A98-855C-C6EE-F0D6-29E35414F11B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD65C2E5-744A-3595-2187-74AA24583B8E" name="Tbl_Reservacion_Tbl_Empleado_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-12 01:03:14 UTC</createdTime>
+<generatorID>F0A232FF-E4EA-F78E-E5A6-A6ED9241EEF8</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BEF5D27-3CE0-975A-D30A-831C84CC6D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

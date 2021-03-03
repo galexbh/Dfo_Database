@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0217C7A2-3B94-D6BB-F55F-8EAFBB3F718C" containerWithKeyObject="55D6A685-A633-D516-7856-85FB0859C89B" localFKIndex="DF0C4B05-A58D-F914-BB2C-C8F5DEA53E8F" name="Tbl_Habitacion_Salon_Tbl_Estado_FK">
+<createdBy>IHTT</createdBy>
+<createdTime>2021-02-11 00:23:50 UTC</createdTime>
+<generatorID>04208608-4071-E151-7E8D-FAFCBF0E3150</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<referredTableLongName>Tbl_Estado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F88B7E84-9E19-116D-A35C-8C24C0633F0A</referredTableID>
+<keyObject>56E982F9-09B4-906D-3786-4E4C16185133</keyObject>
+<referredKeyID>56E982F9-09B4-906D-3786-4E4C16185133</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Estado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
